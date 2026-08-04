@@ -298,3 +298,5 @@ http://localhost:8080/swagger-ui.html
 - Multiple seats are booked atomically within a single database transaction.
 - The application supports segment-based seat reuse, improving reserved seat utilization compared to conventional railway reservation systems.
 - The system has been designed with configurable routes, stations, coaches, and schedules, allowing future railway extensions without code changes.
+- If you dont see any train shcedules for the date you entered try creating new schedule or update existing one as admin using admin panel.
+  -Sequerity features such as authentication and authorization are yet to implement.
